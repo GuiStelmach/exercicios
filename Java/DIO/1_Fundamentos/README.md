@@ -29,17 +29,17 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
 
 2. Navegue até a pasta raiz do repositório:
    ```bash
-   cd exercicios/Java/1_Fundamentos
+   cd exercicios/Java/1_Fundamentos/ESCOLHA_UMA_DAS_PASTAS_DE_EXERCICIO
    ```
 
 3. Compile o arquivo Java desejado (exemplo):
    ```bash
-   javac Exercicio1.java
+   javac Main.java
    ```
 
 4. Execute o programa compilado:
    ```bash
-   java Exercicio1
+   java Main
    ```
 
 ---
