@@ -9,7 +9,7 @@ Este repositório contém as minhas resoluções para os exercícios práticos p
 
 Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos neste repositório:
 
-- [ X ] **1. Saudação com Idade**
+- [X] **1. Saudação com Idade**
   - **Objetivo:** Receber o nome e o ano de nascimento de uma pessoa e imprimir a mensagem: *"Olá [Nome], você tem [X] anos"*.
 - [ ] **2. Área do Quadrado**
   - **Objetivo:** Receber o tamanho do lado de um quadrado, calcular sua área e exibir na tela. *(Fórmula: Área = lado × lado)*.
