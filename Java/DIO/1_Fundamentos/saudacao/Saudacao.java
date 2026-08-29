@@ -12,10 +12,8 @@ class Pessoa {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
+public class Saudacao {
+    public void executar(Scanner scanner) {
         Pessoa pessoa = new Pessoa();
 
         System.out.print("Digite seu nome: ");
@@ -28,7 +26,5 @@ public class Main {
         pessoa.idade = anoAtual - anoNascimento;
 
         pessoa.identificar();
-
-        scanner.close();
     }
 }
