@@ -11,9 +11,9 @@ Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos 
 
 - [X] **1. Saudação com Idade**
   - **Objetivo:** Receber o nome e o ano de nascimento de uma pessoa e imprimir a mensagem: *"Olá [Nome], você tem [X] anos"*.
-- [ ] **2. Área do Quadrado**
+- [X] **2. Área do Quadrado**
   - **Objetivo:** Receber o tamanho do lado de um quadrado, calcular sua área e exibir na tela. *(Fórmula: Área = lado × lado)*.
-- [ ] **3. Área do Retângulo**
+- [X] **3. Área do Retângulo**
   - **Objetivo:** Receber a base e a altura de um retângulo, calcular sua área e exibir na tela. *(Fórmula: Área = base × altura)*.
 - [ ] **4. Diferença de Idades**
   - **Objetivo:** Receber o nome e a idade de 2 pessoas e imprimir a diferença de idade entre elas.
@@ -27,20 +27,22 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
    git clone https://github.com/GuiStelmach/exercicios
    ```
 
-2. Navegue até a pasta raiz do repositório:
+2. Navegue até a pasta dos fundamentos do projeto:
    ```bash
-   cd exercicios/Java/1_Fundamentos/ESCOLHA_UMA_DAS_PASTAS_DE_EXERCICIO
+   cd exercicios/Java/DIO/1_Fundamentos
    ```
 
-3. Compile o arquivo Java desejado (exemplo):
+3. Compile todos os arquivos do módulo para gerar os arquivos `.class` com a estrutura de pacotes:
    ```bash
-   javac Main.java
+   javac -d . MenuPrincipal.java saudacao/Saudacao.java areaquadrado/AreaQuadrado.java arearetangulo/AreaRetangulo.java
    ```
 
-4. Execute o programa compilado:
+4. Execute o programa principal:
    ```bash
-   java Main
+   java MenuPrincipal
    ```
+
+> Observação: como os exercícios usam pacotes em subpastas, não basta compilar apenas `MenuPrincipal.java`. É necessário compilar também as classes dos exercícios para que o projeto encontre `saudacao.Saudacao`, `areaquadrado.AreaQuadrado` e `arearetangulo.AreaRetangulo`.
 
 ---
 Desenvolvido com ☕ e dedicação por [Gui Stelmach](https://github.com/GuiStelmach).
