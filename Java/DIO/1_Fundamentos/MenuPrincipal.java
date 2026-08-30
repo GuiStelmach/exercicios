@@ -1,7 +1,8 @@
-import java.util.Scanner;
 import areaquadrado.AreaQuadrado;
-import saudacao.Saudacao;
 import arearetangulo.AreaRetangulo;
+import diferencaidade.DiferencaIdade;
+import java.util.Scanner;
+import saudacao.Saudacao;
 
 public class MenuPrincipal {
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class MenuPrincipal {
             System.out.println("1 - Saudação");
             System.out.println("2 - Área do Quadrado");
             System.out.println("3 - Área do Retângulo");
+            System.out.println("4 - Diferença de Idade");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
             
@@ -37,6 +39,11 @@ public class MenuPrincipal {
                     System.out.println("\n--- Executando: Área do Retângulo ---");
                     AreaRetangulo ex3 = new AreaRetangulo();
                     ex3.executar(scanner);
+                    break;
+                case 4:
+                    System.out.println("\n--- Executando: Diferença de Idade ---");
+                    DiferencaIdade ex4 = new DiferencaIdade();
+                    ex4.executar(scanner);
                     break;
                 case 0:
                     System.out.println("\nSaindo... Até logo!");
