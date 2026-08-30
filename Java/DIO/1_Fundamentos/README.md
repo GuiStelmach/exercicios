@@ -15,7 +15,7 @@ Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos 
   - **Objetivo:** Receber o tamanho do lado de um quadrado, calcular sua área e exibir na tela. *(Fórmula: Área = lado × lado)*.
 - [X] **3. Área do Retângulo**
   - **Objetivo:** Receber a base e a altura de um retângulo, calcular sua área e exibir na tela. *(Fórmula: Área = base × altura)*.
-- [ ] **4. Diferença de Idades**
+- [X] **4. Diferença de Idades**
   - **Objetivo:** Receber o nome e a idade de 2 pessoas e imprimir a diferença de idade entre elas.
 
 ## 🚀 Como executar os códigos
@@ -34,7 +34,7 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
 
 3. Compile todos os arquivos do módulo para gerar os arquivos `.class` com a estrutura de pacotes:
    ```bash
-   javac -d . MenuPrincipal.java saudacao/Saudacao.java areaquadrado/AreaQuadrado.java arearetangulo/AreaRetangulo.java
+   javac -d . MenuPrincipal.java saudacao/Saudacao.java areaquadrado/AreaQuadrado.java arearetangulo/AreaRetangulo.java diferencaidade/DiferencaIdade.java
    ```
 
 4. Execute o programa principal:

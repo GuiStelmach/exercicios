@@ -55,14 +55,31 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
    cd exercicios/Java/DIO/1_Fundamentos
    ```
 
-2. Compile o arquivo Java:
+2. Navegue até a pasta dos fundamentos do projeto:
    ```bash
-   javac saudacao/Main.java
+   cd exercicios/Java/DIO/1_Fundamentos
    ```
 
-3. Execute o programa usando o nome completo da classe:
+3. Compile todos os arquivos do módulo para gerar os arquivos `.class` com a estrutura de pacotes:
    ```bash
-   java saudacao.Main
+   javac -d . MenuPrincipal.java saudacao/Saudacao.java areaquadrado/AreaQuadrado.java arearetangulo/AreaRetangulo.java diferencaidade/DiferencaIdade.java
+   ```
+
+4. Execute o programa principal:
+   ```bash
+   java MenuPrincipal
+   ```
+
+5. Escolha a opção 1:
+   ```bash
+   ===========================
+    MENU DE EXERCÍCIOS     
+   ===========================
+   1 - Saudação
+   2 - Área do Quadrado
+   3 - Área do Retângulo
+   4 - Diferença de Idade
+   0 - Sair
    ```
 
 4. Informe os dados solicitados. Exemplo:
