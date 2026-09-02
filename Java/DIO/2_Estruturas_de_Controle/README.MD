@@ -9,7 +9,7 @@ Este repositório contém as minhas resoluções para os exercícios práticos p
 
 Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos neste repositório:
 
-- [ ] **5. Tabuada**
+- [X] **5. Tabuada**
   - **Objetivo:** Receber um número do usuário e gerar a tabuada desse número (multiplicado de 1 até 10).
 - [ ] **6. Calculadora de IMC**
   - **Objetivo:** Receber a altura e o peso do usuário, calcular o seu IMC *(Fórmula: IMC = peso / (altura × altura))* e exibir a classificação de acordo com a tabela abaixo:
@@ -37,7 +37,7 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
 
 2. Navegue até a pasta raiz do repositório:
    ```bash
-   cd exercicios/Java/2_Estruturas_de_Controle
+   cd exercicios/DIO/Java/2_Estruturas_de_Controle
    ```
 
 3. Compile o arquivo Java desejado (exemplo):

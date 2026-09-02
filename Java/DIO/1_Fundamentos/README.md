@@ -29,7 +29,7 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
 
 2. Navegue até a pasta dos fundamentos do projeto:
    ```bash
-   cd exercicios/Java/DIO/1_Fundamentos
+   cd Java/DIO/1_Fundamentos
    ```
 
 3. Compile todos os arquivos do módulo para gerar os arquivos `.class` com a estrutura de pacotes:
