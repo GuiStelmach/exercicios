@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import tabuada.Tabuada;
+import imc.Imc;
 
 public class MenuPrincipal {
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class MenuPrincipal {
             System.out.println("    MENU DE EXERCÍCIOS     ");
             System.out.println("===========================");
             System.out.println("1 - Tabuada");
-            System.out.println("2 - EM BREVE");
+            System.out.println("2 - Calcular IMC");
             System.out.println("3 - EM BREVE");
             System.out.println("4 - EM BREVE");
             System.out.println("0 - Sair");
@@ -27,7 +28,9 @@ public class MenuPrincipal {
                     ex1.executar(scanner); 
                     break;
                 case 2:
-                    System.out.println("\n--- Em Breve ---");
+                    System.out.println("\n--- Executando: Calcular IMC ---");
+                    Imc ex2 = new Imc();
+                    ex2.executar(scanner);
                     break;
                 case 3:
                     System.out.println("\n--- Em Breve ---");
