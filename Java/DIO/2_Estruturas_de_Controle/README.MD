@@ -11,7 +11,7 @@ Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos 
 
 - [X] **5. Tabuada**
   - **Objetivo:** Receber um número do usuário e gerar a tabuada desse número (multiplicado de 1 até 10).
-- [ ] **6. Calculadora de IMC**
+- [X] **6. Calculadora de IMC**
   - **Objetivo:** Receber a altura e o peso do usuário, calcular o seu IMC *(Fórmula: IMC = peso / (altura × altura))* e exibir a classificação de acordo com a tabela abaixo:
     - **≤ 18,5:** Abaixo do peso
     - **18,6 a 24,9:** Peso ideal
@@ -40,14 +40,14 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
    cd exercicios/DIO/Java/2_Estruturas_de_Controle
    ```
 
-3. Compile o arquivo Java desejado (exemplo):
+3. Compile os arquivos Java desejado (exemplo):
    ```bash
-   javac Exercicio1.java
+   javac MenuPrincipal.java imc\Imc.Java tabuada\Tabuada.java
    ```
 
 4. Execute o programa compilado:
    ```bash
-   java Exercicio1
+   java MenuPrincipal
    ```
 
 ---
