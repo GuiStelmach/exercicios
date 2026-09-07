@@ -19,7 +19,7 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>Java/DIO</sourceDirectory>
-    <testSourceDirectory>Java/Test/DIO</testSourceDirectory>
+    <sourceDirectory>Java/DIO/2_Estruturas_de_Controle</sourceDirectory>
+    <testSourceDirectory>Java/Test/DIO/2_Estruturas_de_Controle</testSourceDirectory>
   </build>
 </project>

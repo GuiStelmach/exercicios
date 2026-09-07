@@ -5,6 +5,10 @@ import java.util.Scanner;
 class DadosImc {
     double peso;
     double altura;
+
+    double calcularImc() {
+        return peso / (altura * altura);
+    }
 }
 
 public class Imc {
@@ -17,7 +21,7 @@ public class Imc {
         System.out.print("Digite sua altura (m): ");
         dados.altura = scanner.nextDouble();
 
-        double imc = dados.peso / (dados.altura * dados.altura);
+        double imc = dados.calcularImc();
 
         if (imc < 18.5) {
             System.out.printf("IMC: %.2f\n", imc);
