@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import tabuada.Tabuada;
 import imc.Imc;
+import intervalo.IntervaloParOuImpar;
 
 public class MenuPrincipal {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class MenuPrincipal {
             System.out.println("===========================");
             System.out.println("1 - Tabuada");
             System.out.println("2 - Calcular IMC");
-            System.out.println("3 - EM BREVE");
+            System.out.println("3 - Intervalo Par ou Ímpar");
             System.out.println("4 - EM BREVE");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
@@ -33,7 +34,9 @@ public class MenuPrincipal {
                     ex2.executar(scanner);
                     break;
                 case 3:
-                    System.out.println("\n--- Em Breve ---");
+                    System.out.println("\n--- Executando: Intervalo Par ou Ímpar ---");
+                    IntervaloParOuImpar ex3 = new IntervaloParOuImpar();
+                    ex3.executar(scanner);
                     break;
                 case 4:
                     System.out.println("\n--- Em Breve ---");
