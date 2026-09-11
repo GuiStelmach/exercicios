@@ -40,9 +40,9 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
    cd exercicios/DIO/Java/2_Estruturas_de_Controle
    ```
 
-3. Compile os arquivos Java desejado (exemplo):
+3. Compile os arquivos Java desejados:
    ```bash
-   javac MenuPrincipal.java imc\Imc.Java tabuada\Tabuada.java
+  javac -d . MenuPrincipal.java imc\Imc.java tabuada\Tabuada.java intervalo\IntervaloParOuImpar.java
    ```
 
 4. Execute o programa compilado:
