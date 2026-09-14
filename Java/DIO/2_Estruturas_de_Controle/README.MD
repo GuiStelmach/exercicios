@@ -19,7 +19,7 @@ Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos 
     - **30,0 a 34,9:** Obesidade Grau I
     - **35,0 a 39,9:** Obesidade Grau II (Severa)
     - **≥ 40,0:** Obesidade III (Mórbida)
-- [ ] **7. Pares ou Ímpares no Intervalo (Ordem Decrescente)**
+- [X] **7. Pares ou Ímpares no Intervalo (Ordem Decrescente)**
   - **Objetivo:** Receber um número inicial, um número final (maior que o inicial) e uma escolha do usuário ("par" ou "ímpar"). O programa deve exibir todos os números da categoria escolhida dentro do intervalo (incluindo os números informados), em **ordem decrescente**.
 - [ ] **8. Validação de Divisibilidade (Loop)**
   - **Objetivo:** Receber um número inicial `X`. O programa deve continuar solicitando novos números em loop. Regras:
