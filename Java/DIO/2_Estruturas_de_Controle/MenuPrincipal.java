@@ -15,7 +15,7 @@ public class MenuPrincipal {
             System.out.println("1 - Tabuada");
             System.out.println("2 - Calcular IMC");
             System.out.println("3 - Intervalo Par ou Ímpar");
-            System.out.println("4 - EM BREVE");
+            System.out.println("4 - Identificar Números Divisíveis");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
             
@@ -39,7 +39,9 @@ public class MenuPrincipal {
                     ex3.executar(scanner);
                     break;
                 case 4:
-                    System.out.println("\n--- Em Breve ---");
+                    System.out.println("\n--- Executando: Identificar Números Divisíveis ---");
+                    Divisivel ex4 = new Divisivel();
+                    ex4.executar(scanner);
                     break;
                 case 0:
                     System.out.println("\nSaindo... Até logo!");

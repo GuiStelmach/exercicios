@@ -21,7 +21,7 @@ Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos 
     - **≥ 40,0:** Obesidade III (Mórbida)
 - [X] **7. Pares ou Ímpares no Intervalo (Ordem Decrescente)**
   - **Objetivo:** Receber um número inicial, um número final (maior que o inicial) e uma escolha do usuário ("par" ou "ímpar"). O programa deve exibir todos os números da categoria escolhida dentro do intervalo (incluindo os números informados), em **ordem decrescente**.
-- [ ] **8. Validação de Divisibilidade (Loop)**
+- [X] **8. Validação de Divisibilidade (Loop)**
   - **Objetivo:** Receber um número inicial `X`. O programa deve continuar solicitando novos números em loop. Regras:
     - Números menores que `X` devem ser ignorados.
     - O loop só deve ser interrompido quando o usuário digitar um número que, dividido por `X`, possua **resto diferente de zero**.
@@ -42,7 +42,7 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
 
 3. Compile os arquivos Java desejados:
    ```bash
-  javac -d . MenuPrincipal.java imc\Imc.java tabuada\Tabuada.java intervalo\IntervaloParOuImpar.java
+   javac -encoding UTF-8 -d . MenuPrincipal.java imc\Imc.java tabuada\Tabuada.java intervalo\IntervaloParOuImpar.java divisivel\Divisivel.java
    ```
 
 4. Execute o programa compilado:
