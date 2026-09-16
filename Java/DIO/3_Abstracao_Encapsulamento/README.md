@@ -11,7 +11,7 @@ Abaixo está a lista dos exercícios propostos pela DIO que foram desenvolvidos 
 
 > ⚠️ **Aviso Geral:** Todos os exercícios a partir deste ponto possuem um **Menu Interativo** no console para navegação e chamada de funções, contendo sempre uma opção para **sair/finalizar** a execução do programa.
 
-- [ ] **9. Simulador de Conta Bancária**
+- [X] **9. Simulador de Conta Bancária**
   - **Objetivo:** Criar um sistema bancário com controle de saldo, cheque especial e pagamento de taxas.
   - **Operações do Menu:** Consultar saldo, Consultar cheque especial, Depositar, Sacar, Pagar boleto, Verificar uso do cheque especial.
   - **Regras de Negócio:**
@@ -57,20 +57,22 @@ Certifique-se de ter o [Java JDK](https://www.oracle.com/java/technologies/downl
    git clone https://github.com/GuiStelmach/exercicios
    ```
 
-2. Navegue até a pasta raiz do repositório:
+2. Navegue até a pasta do módulo:
    ```bash
-   cd exercicios/Java/3_Abstracao_Encapsulamento
+   cd exercicios/Java/DIO/3_Abstracao_Encapsulamento
    ```
 
-3. Compile o arquivo Java desejado (exemplo):
+3. Compile os arquivos do exercício desejado:
    ```bash
-   javac Exercicio1.java
+   javac -encoding UTF-8 -d . MenuInterativo.java banco_simulador\Conta.java banco_simulador\Usuario.java banco_simulador\MenuBanco.java
    ```
 
-4. Execute o programa compilado:
+4. Execute o programa principal:
    ```bash
-   java Exercicio1
+   java MenuInterativo
    ```
+
+> Observação: no módulo 3, os exercícios passam a ter um menu interativo em console. O programa principal é executado a partir da classe `MenuInterativo`, que dispara as operações do exercício bancário.
 
 ---
 Desenvolvido com ☕ e dedicação por [Gui Stelmach](https://github.com/GuiStelmach).
